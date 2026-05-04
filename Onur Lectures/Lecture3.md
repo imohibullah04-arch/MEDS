@@ -27,7 +27,7 @@ To make things safer, we add a "Write Enable" signal. The output only follows th
 Once we can store one bit, we can store anything.
 
 *   *Register:* Simply a row of latches that share a single Write Enable signal. If you want to store a 4-bit number, you use four latches in parallel.
-*   *Memory Array:* This is a grid of registers. We use a *Decoder* (from Lecture 2) to pick which specific address we want to talk to, and a *Multiplexer* to read the data out. 
+*   *Memory Array:* This is a grid of registers. We use a *Decoder*  to pick which specific address we want to talk to, and a *Multiplexer* to read the data out. 
     *   Note: Most of a modern CPU is actually just different types of memory such as caches and registers.
 
 
