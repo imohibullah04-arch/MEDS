@@ -11,7 +11,7 @@ A common mistake is thinking SystemVerilog is just like C or Java. It looks like
 *   *Concurrency:* In software, lines of code execute one after another. In hardware, everything happens at the same time because electricity flows through all gates simultaneously.
 *   *Structural vs. Behavioral:* You can describe hardware by listing every gate (Structural) or by describing what the circuit should do mathematically (Behavioral).
 
-## 3. The Basics of SystemVerilog
+## 3. The Basics of Verilog
 The fundamental building block in SystemVerilog is the *Module*. Think of a module as a black box with defined inputs and outputs.
 
 
