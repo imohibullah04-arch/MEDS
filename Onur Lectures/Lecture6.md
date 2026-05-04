@@ -4,8 +4,8 @@
 Real-world circuits do not change state instantaneously. Delay is primarily caused by *capacitance* and *resistance (RC delay)* within the transistors and wires.
 
 ### Key Timing Definitions:
-*   *Propagation Delay ($t_{pd}$):* The maximum time from an input change to the output finishing its change (the "worst-case" or longest path).
-*   *Contamination Delay ($t_{cd}$):* The minimum time from an input change to the output starting to change (the "best-case" or shortest path).
+*   *Propagation Delay t_{pd}:* The maximum time from an input change to the output finishing its change (the "worst-case" or longest path).
+*   *Contamination Delay (t_{cd}):* The minimum time from an input change to the output starting to change (the "best-case" or shortest path).
 
 ### Glitches
 *   A *glitch* occurs when a single input transition causes multiple output transitions before settling.
