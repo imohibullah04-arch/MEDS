@@ -12,7 +12,6 @@ The goal of this repo is to maintain clean, organized, and revision-friendly not
 - Introduction to Digital Design
 - Basics of Boolean Logic
 - Binary representation overview
-- - Boolean Algebra rules
 
 ### Lecture 2
 - Logic gates and truth tables
