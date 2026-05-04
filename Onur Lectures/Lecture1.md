@@ -34,7 +34,7 @@ Modern digital systems are built using *MOS (Metal-Oxide-Semiconductor)* transis
 | *Symbol* | No bubble on gate | Bubble on gate |
 | *Input for "ON"* | High Voltage (1) | Low Voltage (0) |
 | *Input for "OFF"* | Low Voltage (0) | High Voltage (1) |
-| *Primary Strength* | Pulling output to *Ground* (0) | Pulling output to *$V_{DD}$* (1) |
+| *Primary Strength* | Pulling output to *Ground* (0) | Pulling output to $V_{DD}$ (1) |
 
 
 
