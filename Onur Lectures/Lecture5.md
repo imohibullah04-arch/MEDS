@@ -1,4 +1,4 @@
-# Study Guide: SystemVerilog for Sequential Logic (Lecture 5)
+# Study Guide: Verilog for Sequential Logic (Lecture 5)
 
 ## 1. The Shift to Sequential Coding
 In the previous lecture, we focused on combinational logic where outputs change instantly. Now, we use SystemVerilog to describe circuits that have a memory of past events. This requires us to use "procedural blocks" instead of just simple assign statements.
