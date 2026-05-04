@@ -18,8 +18,8 @@ Real-world circuits do not change state instantaneously. Delay is primarily caus
 For sequential elements like *D Flip-Flops, data must be stable during a specific window around the clock edge to avoid **metastability*.
 
 ### Flip-Flop Constraints:
-*   *Setup Time ($t_{setup}$):* Time before the clock edge that data must be stable.
-*   *Hold Time ($t_{hold}$):* Time after the clock edge that data must be stable.
+*   *Setup Time :* Time before the clock edge that data must be stable.
+*   *Hold Time :* Time after the clock edge that data must be stable.
 *   *Aperture Time:* The total window ($t_{setup} + t_{hold}$) where data must not change.
 
 ### Propagation & Contamination:
