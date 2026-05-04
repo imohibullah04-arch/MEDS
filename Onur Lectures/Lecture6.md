@@ -4,8 +4,8 @@
 Real-world circuits do not change state instantaneously. Delay is primarily caused by *capacitance* and *resistance (RC delay)* within the transistors and wires.
 
 ### Key Timing Definitions:
-*   *Propagation Delay t_{pd}:* The maximum time from an input change to the output finishing its change (the "worst-case" or longest path).
-*   *Contamination Delay (t_{cd}):* The minimum time from an input change to the output starting to change (the "best-case" or shortest path).
+*   *Propagation Delay :* The maximum time from an input change to the output finishing its change (the "worst-case" or longest path).
+*   *Contamination Delay :* The minimum time from an input change to the output starting to change (the "best-case" or shortest path).
 
 ### Glitches
 *   A *glitch* occurs when a single input transition causes multiple output transitions before settling.
@@ -44,7 +44,8 @@ In a system with two registers ($R1$ and $R2$) and combinational logic in betwee
 ---
 
 ## 4. Clock Skew
-*Clock Skew ($t_{skew}$:* The time difference between the clock signal reaching two different flip-flops due to wire lengths and delays in the clock distribution network.
+The time difference between the clock signal reaching two different flip-flops due to wire lengths and delays in the clock distribution network.
+
 *   *Impact:* Skew effectively reduces the available time for logic, increasing the "sequencing overhead."
 *   *Setup effect:* $T_c \geq t_{pcq} + t_{pd} + t_{setup} + t_{skew}$
 *   *Hold effect:* $t_{ccq} + t_{cd} \geq t_{hold} + t_{skew}$
