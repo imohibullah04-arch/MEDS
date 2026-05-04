@@ -44,7 +44,7 @@ In a system with two registers ($R1$ and $R2$) and combinational logic in betwee
 ---
 
 ## 4. Clock Skew
-*Clock Skew ($t_{skew}$):* The time difference between the clock signal reaching two different flip-flops due to wire lengths and delays in the clock distribution network.
+*Clock Skew ($t_{skew}$:* The time difference between the clock signal reaching two different flip-flops due to wire lengths and delays in the clock distribution network.
 *   *Impact:* Skew effectively reduces the available time for logic, increasing the "sequencing overhead."
 *   *Setup effect:* $T_c \geq t_{pcq} + t_{pd} + t_{setup} + t_{skew}$
 *   *Hold effect:* $t_{ccq} + t_{cd} \geq t_{hold} + t_{skew}$
