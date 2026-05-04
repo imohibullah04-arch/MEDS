@@ -7,9 +7,9 @@ To build a computer, we need a way to translate human logic into electrical sign
 *   *Automate:* Write software that designs the hardware for us.
 
 ### The Big Three Operations
-*   *NOT $\bar{A}$:* The contrarian. If it's 1, it becomes 0.
-*   *AND ($A \cdot B$):* The gatekeeper. It only says "Yes" if everyone agrees.
-*   *OR ($A + B$):* The optimist. It says "Yes" if at least one person is on board.
+*   *NOT A̅:* The contrarian. If it's 1, it becomes 0.
+*   *AND (A ⋅ B):* The gatekeeper. It only says "Yes" if everyone agrees.
+*   *OR (A + B):* The optimist. It says "Yes" if at least one person is on board.
 
 ---
 
@@ -54,7 +54,7 @@ This is the heart of math. It takes two bits and a "carry-over" from a previous 
 
 ## 5. The Real World: Power & Energy
 Hardware isn't just math; it's physics. Every time a bit flips, it costs:
-*   *Dynamic Power ($P \propto V^2$):* Power used during the "flip." Because Voltage is squared, cutting the voltage in half reduces your power consumption by four!
+*   *Dynamic Power (P∝V^2):* Power used during the "flip." Because Voltage is squared, cutting the voltage in half reduces your power consumption by four!
 *   *Static Power:* The "leak." Even when your phone is in your pocket, transistors leak a tiny bit of current.
 
 ---
