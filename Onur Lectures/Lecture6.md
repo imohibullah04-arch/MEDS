@@ -23,8 +23,8 @@ For sequential elements like *D Flip-Flops, data must be stable during a specifi
 *   *Aperture Time:* The total window ($t_{setup} + t_{hold}$) where data must not change.
 
 ### Propagation & Contamination:
-*   *Clock-to-Q Propagation Delay ($t_{pcq}$):* Time after the clock edge for the output $Q$ to become stable.
-*   *Clock-to-Q Contamination Delay ($t_{ccq}$):* Time after the clock edge for the output $Q$ to start changing.
+*   *Clock-to-Q Propagation Delay :* Time after the clock edge for the output $Q$ to become stable.
+*   *Clock-to-Q Contamination Delay :* Time after the clock edge for the output $Q$ to start changing.
 
 ---
 
