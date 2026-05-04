@@ -61,7 +61,7 @@ This repository is created for:
 
 ## Course Reference
 
-Lectures are based on content by "https://www.youtube.com/watch?v=smHJ1W7S-2Q&t=1s" , covering foundational topics in digital design and computer architecture.
+Lectures are based on content by "https://www.youtube.com/watch?v=ubhxKNlOlRg&list=PL5Q2soXY2Zi9Eo29LMgKVcaydS7V1zZW3" , covering foundational topics in digital design and computer architecture.
 
 ---
 
