@@ -7,7 +7,7 @@ To build a computer, we need a way to translate human logic into electrical sign
 *   *Automate:* Write software that designs the hardware for us.
 
 ### The Big Three Operations
-*   *NOT ($ \bar{A}$):* The contrarian. If it's 1, it becomes 0.
+*   *NOT ($\bar{A}$):* The contrarian. If it's 1, it becomes 0.
 *   *AND ($A \cdot B$):* The gatekeeper. It only says "Yes" if everyone agrees.
 *   *OR ($A + B$):* The optimist. It says "Yes" if at least one person is on board.
 
